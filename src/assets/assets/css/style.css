@@ -56,14 +56,15 @@ hr {
 /* End */
 
 a {
-  text-decoration: none;
+  color: white !important;
+  text-decoration: none !important;
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
   color: #2f2f2f;
   text-decoration: underline; }
   a:hover {
-    color: #2f2f2f;
+    color: #f9bf29 !important;
     text-decoration: none; }
   a.more {
     font-weight: 600; }

@@ -18,9 +18,9 @@
 		<div class='menu' v-if="open">
 			<center>
 			<ul id="links">
-				<li class="link first"><a>Home</a></li><hr>
-				<li class="link"><a>About</a></li><hr>
-				<li class="link"><a>Manage</a></li>
+				<li class="link first"><a href="/">Home</a></li><hr>
+				<li class="link"><a href="/about">About</a></li><hr>
+				<li class="link"><a href="/manage">Manage</a></li>
 			</ul>
 			</center>
 		</div>
