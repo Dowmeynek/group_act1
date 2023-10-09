@@ -17,6 +17,44 @@ body {
   font-size: 14px;
   background-color: #eff2f1; }
 
+/* Modified by Rivera*/
+hr {
+  margin: 0;
+}
+.link {
+  margin: 0;
+}
+.link:first-child {
+  margin-top:3dvh;
+}
+.menu-icon {
+  height: 5dvh !important;
+  width:5dvh !important;
+}
+.menu {
+  font-family: "Inter", sans-serif;
+  width:20%;
+  z-index:100;
+  position: absolute;
+  background-color: rgba(0,0,0,30%);
+  color:white;
+  float: right;
+  border-radius: 3dvh;
+  padding: 0;
+  right: 2%;
+}
+.container{
+  position: relative;
+}
+#hamburger {
+  cursor:pointer;
+}
+#links {
+  list-style-type:none ;
+  padding: 0;
+}
+/* End */
+
 a {
   text-decoration: none;
   -webkit-transition: .3s all ease;
