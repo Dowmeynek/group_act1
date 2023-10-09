@@ -4,17 +4,20 @@
   		<nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark contain" arial-label="Furni navigation bar">
 
   			<div class="container">
-  				<a class="navbar-brand" href="index.html">Furni<span>.</span></a>
+  				<a class="navbar-brand" href="/">Furni<span>.</span></a>
 
   				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
   					<span class="navbar-toggler-icon"></span>
   				</button>
 
+				<!--Modified by Rivera-->
 				<a id='hamburger' @click="menubar"><img class="menu-icon" :src="require('@/assets/img/icons/menu.png')" ></a>
-  			</div>
+				<!--Ends-->
+			</div>
   		</nav>
 
-		<!--Hamburger-->
+		<!--Hamburger Modified by Rivera-->
+		<Transition>
 		<div class='menu' v-if="open">
 			<center>
 			<ul id="links">
@@ -24,6 +27,7 @@
 			</ul>
 			</center>
 		</div>
+		</Transition>
   		<!-- End Header/Navigation -->
 	  <div>
   	
@@ -50,6 +54,7 @@
 </div>
 </template>
 <script>
+//Modified by Rivera
   export default {
     name: "Top",
   data() {
@@ -70,5 +75,6 @@
       }
     },
   };
+  //Ends
 </script>
 
