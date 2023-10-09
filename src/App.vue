@@ -5,6 +5,7 @@
 <dec/>
 <top/>
 <mid/>
+<prod/>
 
   
 	</div>
@@ -14,12 +15,12 @@
 import dec from"@/components/dec.vue";
 import top from"@/components/laman/top.vue";
 import mid from"@/components/laman/mid.vue";
+import prod from"@/components/laman/prod.vue";
 export default {
   components: {
-    dec,top,mid
+    dec,top,mid,prod
   }
 };
-
 </script>
 
 
