@@ -21,9 +21,9 @@
 		<div class='menu' v-if="open">
 			<center>
 			<ul id="links">
-				<li class="link first"><a href="/">Home</a></li><hr>
-				<li class="link"><a href="/about">About</a></li><hr>
-				<li class="link"><a href="/manage">Manage</a></li>
+				<router-link to="/" tag="li" class="link" exact>Home</router-link><hr>
+				<router-link to="/about" tag="li" class="link" exact>About</router-link><hr>
+				<router-link to="/manage" tag="li" class="link" exact>Manage</router-link>
 			</ul>
 			</center>
 		</div>
@@ -59,7 +59,7 @@
     name: "Top",
   data() {
       return{
-      open: false
+      open: false,
       }
     },
   methods: {
