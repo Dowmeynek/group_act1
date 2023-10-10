@@ -41,9 +41,17 @@ hr {
 .link:hover {
   color: #f9bf29 !important;
 }
+.installer-icon {
+  margin-top: 1dvh;
+  margin-right: 5dvh;
+  height: 3.5dvh !important;
+  width:3.5dvh !important;
+  user-select: none;
+}
 .menu-icon {
   height: 5dvh !important;
   width:5dvh !important;
+  user-select: none;
 }
 .menu {
   font-family: "Inter", sans-serif;
@@ -60,8 +68,12 @@ hr {
 .container{
   position: relative;
 }
-#hamburger {
+.pointer {
   cursor:pointer;
+  float: right;
+}
+#banner {
+  color: white !important;
 }
 #links {
   list-style-type:none ;
