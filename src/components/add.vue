@@ -2,11 +2,12 @@
 /* Import your CSS files here */
   @import '@/assets/assets/css/styles.min.css';
   @import '@/assets/assets/images/favicon.png';
+
 </style>
 
 <script>
   export default {
-    name: "Style",
+    name: "Styles",
   mounted() {
       this.loadScripts();
   },
