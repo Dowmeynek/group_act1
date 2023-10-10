@@ -2,18 +2,20 @@
 	<div id="app">
 <dec/>
 <top/>
+<front/>
 <prod/>
 
   
 	</div>
   </template>
   <script>
-import dec from"@/components/dec.vue";
-import top from"@/components/laman/top.vue";
-import prod from"@/components/laman/prod.vue";
+import dec from"@/components/Homepage/dec.vue";
+import top from"@/components/Homepage/top.vue";
+import front from"@/components/Homepage/front.vue";
+import prod from"@/components/Homepage/prod.vue";
 export default {
   components: {
-    dec,top,prod
+    front,dec,top,prod
   }
 };
 </script>
