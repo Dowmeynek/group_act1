@@ -21,11 +21,25 @@ body {
 hr {
   margin: 0;
 }
-.link {
-  margin: 0;
+/*Vue Classes*/
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
 }
-.link:first-child {
-  margin-top:3dvh;
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+/*Vue end*/
+.link {
+  color: white;
+}
+.link.active{
+  color: #f9bf29 !important;
+  font-weight: 1000;
+}
+.link:hover {
+  color: #f9bf29 !important;
 }
 .menu-icon {
   height: 5dvh !important;
@@ -52,14 +66,7 @@ hr {
 #links {
   list-style-type:none ;
   padding: 0;
-}
-.v-enter-active,
-.v-leave-active {
-  transition: opacity 0.5s ease;
-}
-.v-enter-from,
-.v-leave-to {
-  opacity: 0;
+  padding-top: 3dvh !important;
 }
 /* End */
 
@@ -71,9 +78,6 @@ a {
   transition: .3s all ease;
   color: #2f2f2f;
   text-decoration: underline; }
-  a:hover {
-    color: #f9bf29 !important;
-    text-decoration: none; }
   a.more {
     font-weight: 600; }
 
