@@ -23,14 +23,15 @@
 			<ul id="links">
 				<router-link to="/" tag="li" class="link" exact>Home</router-link><hr>
 				<router-link to="/about" tag="li" class="link" exact>About</router-link><hr>
-				<router-link to="/manage" tag="li" class="link" exact>Manage</router-link>
+				<router-link to="/manage" tag="li" class="link" exact>Manage</router-link><hr>
+        	<router-link to="/shop" tag="li" class="link" exact>Shop</router-link>
 			</ul>
 			</center>
 		</div>
 		</Transition>
   		<!-- End Header/Navigation -->
 	  <div>
-  	
+
 		<div class="hero">
 			<div class="container">
 				<div class="row justify-content-between">
@@ -77,4 +78,3 @@
   };
   //Ends
 </script>
-
