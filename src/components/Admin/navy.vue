@@ -33,7 +33,11 @@
       <div class="sidebar-heading">
           Addons
       </div>
-  
+      <li class="nav-item">
+          <a class="nav-link" href="/">
+              <i class="fas fa-fw fa-home"></i>
+              <span>Home</span></a>
+      </li>
       <!-- Nav Item - Charts -->
       <li class="nav-item">
           <a class="nav-link" href="#">
@@ -47,6 +51,7 @@
               <i class="fas fa-fw fa-table"></i>
               <span>Tables</span></a>
       </li>
+ 
   
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
