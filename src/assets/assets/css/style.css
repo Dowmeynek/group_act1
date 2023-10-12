@@ -53,6 +53,13 @@ hr {
   width:5dvh !important;
   user-select: none;
 }
+.menu-icon2 {
+  height: 3.5dvh !important;
+  width:3.5dvh !important;
+  margin-top: 1dvh;
+  margin-left: 1.5dvh;
+  user-select: none;
+}
 .menu {
   font-family: "Inter", sans-serif;
   width:20%;

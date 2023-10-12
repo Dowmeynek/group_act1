@@ -25,9 +25,11 @@
   				<a class="navbar-brand" href="/">Furni<span>.</span></a>
 
 				<!--Modified by Rivera-->
-				<!--<div> Icons made by <a href="https://www.flaticon.com/authors/kosonicon" title="kosonicon"> kosonicon </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>-->
+				<!--<div> Icons made by <a href="https://www.flaticon.com/authors/kosonicon" title="kosonicon"> kosonicon </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>
+				<div> Icons made by <a href="" title="ariefstudio"> ariefstudio </a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com'</a></div>-->
 				<div>
-				<a class='pointer' @click="menubar"><img class="menu-icon" :src="require('@/assets/img/icons/menu.png')" ></a>
+				<a v-if='open' class='pointer' @click="menubar"><img class="menu-icon2" :src="require('@/assets/img/icons/close.png')" ></a>
+				<a v-else class='pointer' @click="menubar"><img class="menu-icon" :src="require('@/assets/img/icons/menu.png')" ></a>
 				<a class='pointer' @click="installerbanner"><img class="installer-icon" :src="require('@/assets/img/icons/download.png')" ></a>
 				</div>
 				<!--Ends-->
@@ -41,7 +43,8 @@
 			<ul id="links">
 				<router-link to="/" tag="li" class="link" exact>Home</router-link><hr>
 				<router-link to="/about" tag="li" class="link" exact>About</router-link><hr>
-				<router-link to="/manage" tag="li" class="link" exact>Manage</router-link>
+				<router-link to="/manage" tag="li" class="link" exact>Manage</router-link><hr>
+				<router-link to="/shop" tag="li" class="link" exact>Shop</router-link>
 			</ul>
 			</center>
 		</div>

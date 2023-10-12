@@ -1,4 +1,5 @@
 <template>
+<top/>
   <div>
         <!-- Start Hero Section -->
         <div class="hero">
@@ -139,4 +140,13 @@
   </div>
   <!-- End Product Section -->
 </div>
-  </template>
+</template>
+
+<script>
+import top from"@/components/Homepage/top.vue";
+export default {
+  components: {
+    top
+  }
+};
+</script>
