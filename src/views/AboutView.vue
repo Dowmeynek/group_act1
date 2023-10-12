@@ -1,4 +1,5 @@
 <template>
+<top/>
   <div class="about">
     <!-- Start Hero Section -->
     <div class="hero">
@@ -90,3 +91,11 @@
   </div>
 </template>
 
+<script>
+import top from"@/components/Homepage/top.vue";
+export default {
+  components: {
+    top
+  }
+};
+</script>
