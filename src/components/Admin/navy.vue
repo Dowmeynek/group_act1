@@ -185,7 +185,10 @@ export default {
     return {
       chartData: {
         labels: [ 'January', 'February', 'March' ],
-        datasets: [ { data: [40, 20, 12] } ]
+        datasets: [ { 
+            data: [40, 20, 12],
+            backgroundColor: ['#2c5848','#3a745f','#43866e'],
+        } ]
       },
       chartOptions: {
         responsive: true
